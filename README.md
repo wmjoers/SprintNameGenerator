@@ -4,8 +4,15 @@ A simple lib to generate a sprint name using a random adjective and a random ani
 ## Installation
 `npm install sprintnamegenerator`
 
-## Exmaple
+## Exmaple code (index.ts)
 ```
 import { generateRandomName } from 'sprintnamegenerator';
+
 console.log(generateRandomName());
 ```
+## Exmaple names
+* Everlasting Black Widow Spider
+* Mild Pigeon
+* Blind Bedlington Terrier
+* Youthful Horned Frog
+* Ancient Loach
