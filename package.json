@@ -1,0 +1,30 @@
+{
+  "name": "sprintnamegenerator",
+  "version": "1.0.0",
+  "description": "A simple library for generating sprint names.",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wmjoers/SprintNameGenerator.git"
+  },
+  "author": "John Eriksson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wmjoers/SprintNameGenerator/issues"
+  },
+  "homepage": "https://github.com/wmjoers/SprintNameGenerator#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.1",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.2"
+  }
+}

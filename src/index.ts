@@ -1,0 +1,1 @@
+export { generateRandomName } from './name-generator';
