@@ -2,7 +2,7 @@
   "name": "sprintnamegenerator",
   "version": "1.0.0",
   "description": "A simple library for generating sprint names.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "/dist"
