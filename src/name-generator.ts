@@ -1,8 +1,6 @@
-import { randomAnimal } from './animals'
+import { randomAnimal, randomMythicalOrAnimal } from './animals'
 import { randomAdjective } from './adjectives'
 
-export function generateRandomName(): string {
-    return randomAdjective() + ' ' + randomAnimal();
+export function generateRandomName(allowMythical:boolean=false): string {
+    return randomAdjective() + ' ' + (allowMythical ? randomMythicalOrAnimal() : randomAnimal());
 }
-
-
