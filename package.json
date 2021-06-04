@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "lint": "eslint --ext .ts --ignore-path ../.gitignore ."
+    "lint": "eslint --ext .ts --ignore-path .gitignore ."
   },
   "repository": {
     "type": "git",
