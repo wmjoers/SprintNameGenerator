@@ -1,11 +1,3 @@
-# SprintNameGenerator
-A simple lib to generate a sprint name using a random adjective and a random animal name.
-
-## Installation
-`npm install sprintnamegenerator`
-
-## Example code
-```
 var nameGenerator = require('sprintnamegenerator');
 
 // Use default sets
@@ -33,11 +25,3 @@ var customOptions = {
 };
 
 console.log(nameGenerator.generateRandomName([word1options, customOptions]));
-```
-
-## Example names
-* Everlasting Black Widow Spider
-* Mild Pigeon
-* Blind Bedlington Terrier
-* Youthful Horned Frog
-* Ancient Loach

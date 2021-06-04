@@ -1,9 +1,4 @@
-
-export function randomAdjective(): string {
-    return adjectives[Math.floor(Math.random() * adjectives.length)];
-}
-
-export let adjectives = [
+export const adjectives = [
     'Abandoned',
     'Able',
     'Absolute',
