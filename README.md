@@ -27,7 +27,7 @@ var word3options = {
 
 console.log(nameGenerator.generateRandomName([word1options, word2options, word3options]));
 
-// Use included and custom setes
+// Use included and custom sets
 var customOptions = {
     customWordSet: ['Rick', 'Morty', 'Jerry', 'Summer', 'Beth']
 };
