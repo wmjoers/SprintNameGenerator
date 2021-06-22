@@ -24,7 +24,7 @@ export const colors = [
     'Crimson',
     'Khaki',
     'Magenta',
-    'Olden',
+    'Golden',
     'Plum',
     'Olive',
     'Cyan'
